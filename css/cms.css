@@ -1,0 +1,62 @@
+/*
+this is for the cms pages - make sure it is loaded after core.css as it needs to inherit stuff.
+
+*/
+
+
+/* =CMS index*/
+
+body.cms #header img#logo { /*same as other '.inner' pages*/
+bottom: 10px;
+left: 15px;
+}
+
+body.cms h1 {
+	position: static; 
+	top: 0; 
+	
+	clear:none;
+	color: #f60; 
+	display:inline; 
+	margin:0 20px;
+	padding:0;
+	float:left; 
+	text-indent:0; 
+	font-size: 108% ; 
+	line-height: 2.5em; 
+	
+	}
+body.cms #navbar #nav_main {clear: none;}
+
+#navbar #nav_main li.nav-cmsindex,
+#navbar #nav_main li.nav-cmsindex:hover ul {
+	width: 86px; 
+}
+#navbar #nav_main li.nav-cmsvideos,
+#navbar #nav_main li.nav-cmsvideos:hover ul {
+	width: 93px; 
+}
+
+
+ /* admin =table */
+
+ body.cms table {border-top: 1px solid  #f00; border-colour: #000;
+ 	 -border-collapse: collapse;
+ 	 }
+body.cms table {width: 100%; min-height: 500px; margin: 40px 0 20px; color: #999; text-transform: uppercase; font-size: 77%;}
+body.cms table th,
+body.cms table tr,
+body.cms table td {font-size: 100%; line-height: 250%;}
+
+
+body.cms table tr:first-child td  {text-align: left;} 
+body.cms table tr img {margin: 0 auto;} 
+body.cms table td.nav-parent {color: #f60; cursor:help;} 
+body.cms table th.left {text-align: left;}
+
+/* hilite nav parent in stack */
+/*body.cms table tbody > tr:first-child {background: #333;} */
+
+body.cms table tbody {border-top: 2px solid #f60; padding-top: 3px;}
+
+/* END CMS index*/

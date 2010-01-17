@@ -1,0 +1,35 @@
+
+
+
+
+Recent changes:
+------------------ 
+
+# scripts added 
+ - AddThis
+ - Google analytics
+ - ie6update
+
+# navbar changed: AddThis button config
+
+
+
+
+
+TO DO : 17 Jan
+-----------------
+
+# Templates:  
+
+  - CMSedit
+  - contact form
+  - print stylesheet
+
+# elements
+  
+  - frontend home template  :jquery feature
+  - frontend inner template : white discs for bullet points
+
+# Testing : IE7 , FF2
+  
+
