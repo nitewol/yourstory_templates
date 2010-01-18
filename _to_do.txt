@@ -12,23 +12,27 @@ Recent changes:
 
 # navbar changed: AddThis button config
 
-
-
-
-
-TO DO : 17 Jan
------------------
-
 # Templates:  
 
   - CMSedit
   - contact form
   - print stylesheet
 
+  - suckerfish the nav (needs testing more)
+
+
+TO DO 
+-----------------
+
+
+
 # elements
   
   - frontend home template  :jquery feature
+
   - frontend inner template : white discs for bullet points
+
+  - captcha for form
 
 # Testing : IE7 , FF2
   

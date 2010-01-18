@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Inner template | Your Story</title>
+<title>Contact Us | Your Story </title>
 <!-- charset must be UTF-8 for cufon to work! -->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -27,7 +27,6 @@
 			Cufon.replace('#content_primary h3');
 			Cufon.replace('#content_secondary h3');
 			Cufon.replace('#nav_main > li > a');
-			Cufon.replace('#content_primary #anonymity p.submit a');		
 			
 			 /* AddThis */
       //var addthis_config = { username: "[account name here]" }
@@ -58,7 +57,7 @@
 
 	<div id="navbar">	
 	
-		<ul id="nav_main" class="ie6helper">
+		<ul id="nav_main">
 			<li class="nav-home"><a href="#">Home</a>
 				<ul>
 					<li><a href="#">Sub Menu Item</a></li>
@@ -111,8 +110,7 @@
 		<div id="crumbtrail">
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Our Clients</a></li>
-				<li><a class="active" href="#">Blow the whistle</a></li>
+				<li><a class="active" href="#">Contact Us</a></li>
 			</ul>
 		</div>
 				
@@ -120,42 +118,42 @@
 		
 				
 		
-			<h2>You're a whistle-blower: 	Heading style 1</h2>
+			<h2>Contact Us</h2>
 			
 			<p>Intro text here. You want to expose a scandal or pass 	on a story but must remain anonymous. We have a long and unblemished history of protecting our sources, on some occasions under extreme duress from the 	police and the courts of law.</p>	
 			
-			<h3>Heading style 2</h3> 
+			<h3>Contact Form</h3> 
 			
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
 			
-			<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
+			<form method="post" action="">
 			
-			<div id="demo">
-				<h3>Mouse over here to show more content...</h3>
-				<div id="hide">
-				<p>This is what the layout will look like with more primary content.</p>
-				
-				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-				</p>
-				
-				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. </p>
-				
-				<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
-				<p>
-				</a>
-				</div>
-			</div> <!-- //demo -->
+			<!-- email sends to prawns@aol.com -->
 			
-			<div id="anonymity">
-				<p class="submit"><a href="#">Submit your story here</a></p> 
-				<p class="anon">We guarantee confidentiality and anonymity. <a href="#">Read our policy</a></p>
-			</div>	
+			<label for="contact_name">Name</label>
+			<input type="text" id="contact_name" name="contact_name" value="" />
+			
+			<label for="contact_email">Email address</label>
+			<input type="text" id="contact_email" name="contact_email" value="" />
+			
+			<label for="contact_tel">Telephone</label>
+			<input type="text" id="contact_tel" name="contact_tel" value="" />
+			
+			<label for="contact_story">Summary of your story/idea</label>
+			<textarea id="contact_story" name="contact_story" value="" rows="20" cols="7"></textarea>
+			
+			<label for="contact_want_updates">Tick box if you wish to receive <br/>website updates from us:</label>
+			<input type="checkbox" class="checkbox" name="contact_want_updates" value="false" />
+			
+			<input type="submit" id="submit" name="contact_submit" value="Send!" />
+			
+			</form>
+						
 		</div> <!-- content_primary -->
 	
 	
 	
 		<div id="content_secondary">
-			<img src="img/inner-sidebar.jpg" alt="" />
+		<img src="img/inner-sidebar.jpg" alt="" />
 			<div class="wrapper">
 				<h3>Recent Success Stories</h3>
 				<ul id="success">

@@ -1,0 +1,5 @@
+/*hover menus show behind main nav z-index*/
+
+
+/*italic bug breaks feature layout*/
+body.home #content_secondary ul#feature li.active h3 a {font-style: normal}

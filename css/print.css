@@ -1,0 +1,67 @@
+body,
+#header,
+#header #testimonial,
+#wrapper_content,
+#wrapper_main,
+#siteinfo,
+#siteinfo a,
+content_secondary #feature h3,
+content_secondary #feature p,
+#wrapper_main p.emph,
+body.home #content_primary #sidebar,
+a:link, a:visited, a:hover, a:active,
+body.home #content_secondary ul#feature li h3 a,
+body.home #content_secondary ul#feature li.btm h3 a,
+body.home #content_secondary ul#feature li.active h3 a,
+body.home #content_secondary ul#feature li.active p,
+body.inner #content_secondary .wrapper, 
+#content_primary #anonymity p.anon, 
+#content_primary #anonymity p.anon a,
+form input,
+form textarea,
+form input#submit,
+form label,
+form legend,
+body.cms form legend,
+body.cms table,
+body.cms table td.nav-parent {
+	
+	background-color: #fff; color: #000;
+
+	}
+	
+	
+	form input,
+form textarea,
+form input#submit { border-color: #000;}
+	h1, h2, h3, h4, h5, h6 { color: #000;}
+	
+body.home #content_secondary ul#feature li img,
+body.cms table tbody {
+border-color: #000;	
+}	
+body.cms table td.nav-parent {font-weight: bold;}
+
+#wrapper_main {background-image: none;}
+body.home #content_secondary ul#feature li h3 a,
+body.home #content_secondary ul#feature li.btm h3 a
+ {
+background-image: none;
+border: 2px solid #000;
+width:138px;
+}	
+	
+body.home #content_secondary ul#feature li.active p {
+border: 2px solid #000;	
+}	
+
+#navbar,
+#content_primary #anonymity p.submit,
+#siteinfo #nav_sub {
+	display:none;
+}
+	
+#content_primary #anonymity p.anon {
+	float:left;
+}
+#siteinfo p#credit {float:left; margin-left: 20px;}

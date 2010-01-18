@@ -6,6 +6,7 @@ this is for the cms pages - make sure it is loaded after core.css as it needs to
 
 /* =CMS index*/
 
+
 body.cms #header img#logo { /*same as other '.inner' pages*/
 bottom: 10px;
 left: 15px;
@@ -40,9 +41,7 @@ body.cms #navbar #nav_main {clear: none;}
 
  /* admin =table */
 
- body.cms table {border-top: 1px solid  #f00; border-colour: #000;
- 	 -border-collapse: collapse;
- 	 }
+ body.cms table {border-top: 1px solid  #f00;}
 body.cms table {width: 100%; min-height: 500px; margin: 40px 0 20px; color: #999; text-transform: uppercase; font-size: 77%;}
 body.cms table th,
 body.cms table tr,
@@ -59,4 +58,26 @@ body.cms table th.left {text-align: left;}
 
 body.cms table tbody {border-top: 2px solid #f60; padding-top: 3px;}
 
+
 /* END CMS index*/
+
+
+/*cms edit*/
+body.cms fieldset.left {float:left; display:block; padding-left: 20px; width: 455px;}
+body.cms fieldset.right {float:right; display:block; width: 450px ;}
+
+body.cms form {float:left; display:block; width: 100%;}
+
+body.cms form legend {margin-bottom: 20px; color: #f60; font-size: 93%; font-weight: bold; font-style: italic; text-transform: uppercase;}
+body.cms form input, 
+body.cms form textarea {
+	
+	font-size: 100%;
+
+}
+
+
+
+
+body.cms form input[type="file"] {/**/}
+
