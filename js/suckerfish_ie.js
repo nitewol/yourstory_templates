@@ -12,7 +12,6 @@ function sfHoverEvents(sfEls) {
   }
 }
 function sfHover() {
-	document.write("hellp");
 var ULs = document.getElementsByTagName("UL");
 var len = ULs.length;
   for(var i=0;i<len;i++) {
