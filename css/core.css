@@ -171,8 +171,9 @@ left: 15px;
 #navbar #nav_main a {
 	display:block;
 	height:100%;
-	padding: 0 20px;
+	padding: 0 5px;
 	text-decoration: none;
+	text-align:center;
 	background: transparent url(../img/nav-main-stripe.gif) right bottom no-repeat; 
 }
 
